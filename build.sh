@@ -19,6 +19,7 @@ swiftc \
     Sources/main.swift
 
 cp Info.plist "$APP_BUNDLE/Contents/"
+cp AppIcon.icns "$APP_BUNDLE/Contents/Resources/"
 
 echo ""
 echo "Built $APP_BUNDLE"
